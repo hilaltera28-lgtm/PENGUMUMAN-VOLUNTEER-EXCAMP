@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Volunteer EXCAMP 2027</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Confetti JS -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #060d19;
+            color: #ffffff;
+        }
+        .glass-card {
+            background: rgba(10, 25, 47, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4 relative overflow-x-hidden">
+
+    <!-- Background Glow Ornaments -->
+    <div class="absolute top-10 left-10 w-72 h-72 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-10 right-10 w-72 h-72 bg-indigo-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="w-full max-w-md glass-card rounded-2xl shadow-2xl p-6 sm:p-8 relative z-10 transition-all duration-300">
+        
+        <!-- Header -->
+        <div class="text-center mb-6">
+            <span class="bg-blue-500/20 text-blue-400 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider border border-blue-500/30">Seleksi Resmi</span>
+            <h1 class="text-xl sm:text-2xl font-extrabold mt-3 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-200">
+                PENGUMUMAN LOLOS VOLUNTEER PANITIA EXCAMP 2027
+            </h1>
+            <p class="text-xs sm:text-sm text-gray-300 mt-2">
+                Masukkan Nama Serta Nama Instansi dengan Huruf Balok
+            </p>
+        </div>
+
+        <!-- Form Input -->
+        <div id="form-section" class="space-y-4">
+            <div>
+                <label class="block text-xs font-medium text-gray-300 mb-1 uppercase tracking-wider">Nama Lengkap</label>
+                <input type="text" id="input-nama" placeholder="CONTOH: AHMAD FADILLAH" 
+                    class="w-full bg-[#030712] border border-gray-700 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 uppercase transition"
+                    oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <div>
+                <label class="block text-xs font-medium text-gray-300 mb-1 uppercase tracking-wider">Instansi</label>
+                <input type="text" id="input-instansi" placeholder="CONTOH: UNIVERSITAS INDONESIA" 
+                    class="w-full bg-[#030712] border border-gray-700 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 uppercase transition"
+                    oninput="this.value = this.value.toUpperCase()">
+            </div>
+
+            <button onclick="cekKelulusan()" class="w-full mt-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold py-3 px-4 rounded-xl shadow-lg transition-all duration-200 transform active:scale-98 tracking-wide text-sm">
+                CEK STATUS KELULUSAN
+            </button>
+        </div>
+
+        <!-- Result Section (Hidden by default) -->
+        <div id="result-section" class="hidden text-center space-y-4 animate-fade-in">
+            <div id="result-icon" class="w-16 h-16 mx-auto rounded-full flex items-center justify-center text-3xl shadow-inner"></div>
+            
+            <div>
+                <h2 id="result-title" class="text-xl font-bold tracking-wide"></h2>
+                <p id="result-desc" class="text-xs sm:text-sm text-gray-300 mt-1"></p>
+            </div>
+
+            <div class="bg-[#030712]/60 border border-gray-800 rounded-xl p-4 text-left space-y-2.5">
+                <div class="flex justify-between items-center text-xs border-b border-gray-800/80 pb-2">
+                    <span class="text-gray-400">NAMA:</span>
+                    <span id="res-nama" class="font-bold text-white text-right"></span>
+                </div>
+                <div class="flex justify-between items-center text-xs border-b border-gray-800/80 pb-2">
+                    <span class="text-gray-400">INSTANSI:</span>
+                    <span id="res-instansi" class="font-bold text-white text-right"></span>
+                </div>
+                <div class="flex justify-between items-center text-xs">
+                    <span class="text-gray-400">DIVISI:</span>
+                    <span id="res-divisi" class="font-extrabold text-right"></span>
+                </div>
+            </div>
+
+            <!-- Dynamic Action Button / Link -->
+            <div id="action-container"></div>
+
+            <button onclick="resetForm()" class="w-full bg-gray-800 hover:bg-gray-700 text-gray-300 font-medium py-2.5 px-4 rounded-xl text-xs transition border border-gray-700">
+                ← CEK NAMA LAIN
+            </button>
+        </div>
+
+    </div>
+
+    <footer class="mt-8 text-center text-xs text-gray-500 relative z-10">
+        &copy; 2027 Panitia Excamp. All rights reserved.
+    </footer>
+
+    <script>
+        // Daftar nama & divisi peserta yang dianggap LOLOS
+        const dataLolos = [
+            { nama: "MOCHAMMAD NIZAR ALDIANSYAH", divisi: "KETUA PELAKSANA" },
+            { nama: "NABILA AL ZAHRA", divisi: "SEKRETARIS" },
+            { nama: "FEBRI AYU KIRANA", divisi: "AMU DIVISI OPO FEB?? LALII" },
+            { nama: "VINA HIDAYATUL ULYAH", divisi: "BENDAHARA" },
+            { nama: "DWI ANGGI SUPRATININGSIH", divisi: "AMU DIVISI OPO NGGII?? LALII" },
+            { nama: "HILAL TERA SUHARTONO", divisi: "WAKIL KETUA PELAKSANA" },
+            { nama: "YUSUF GHILMAN MUZAKKAA", divisi: "KETUA ANGKATAN" },
+        ];
+
+        function cekKelulusan() {
+            const namaInput = document.getElementById('input-nama').value.trim();
+            const instansiInput = document.getElementById('input-instansi').value.trim();
+
+            if (!namaInput || !instansiInput) {
+                alert("Mohon isi kolom Nama dan Instansi terlebih dahulu!");
+                return;
+            }
+
+            // Cari peserta berdasarkan nama dalam array dataLolos
+            const peserta = dataLolos.find(item => item.nama === namaInput);
+
+            // Sembunyikan form, tampilkan hasil
+            document.getElementById('form-section').classList.add('hidden');
+            document.getElementById('result-section').classList.remove('hidden');
+
+            document.getElementById('res-nama').innerText = namaInput;
+            document.getElementById('res-instansi').innerText = instansiInput;
+
+            const iconEl = document.getElementById('result-icon');
+            const titleEl = document.getElementById('result-title');
+            const descEl = document.getElementById('result-desc');
+            const divisiEl = document.getElementById('res-divisi');
+            const actionContainer = document.getElementById('action-container');
+
+            if (peserta) {
+                // Konfigurasi Tampilan Lolos
+                iconEl.className = "w-16 h-16 mx-auto rounded-full flex items-center justify-center text-3xl bg-green-500/20 text-green-400 border border-green-500/30";
+                iconEl.innerHTML = "🎉";
+                titleEl.className = "text-xl font-bold tracking-wide text-green-400";
+                titleEl.innerText = "SELAMAT, ANDA DINYATAKAN LOLOS!";
+                descEl.innerText = "Kamu berhasil melewati tahap seleksi volunteer Panitia Excamp 2027.";
+
+                divisiEl.className = "font-extrabold text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded border border-blue-500/20 text-right";
+                divisiEl.innerText = peserta.divisi;
+
+                // 📍 GANTI LINK DI BAWAH DENGAN LINK GRUP WHATSAPP/TELEGRAM ANDA
+                const linkGrup = "https://chat.whatsapp.com/CONTOH_LINK_GRUP_ANDA";
+
+                actionContainer.innerHTML = `
+                    <a href="${linkGrup}" target="_blank" 
+                       class="flex items-center justify-center gap-2 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3 px-4 rounded-xl shadow-lg transition text-xs sm:text-sm">
+                        <span>📱 GABUNG GRUP KEPANITIAAN</span>
+                    </a>
+                    <p class="text-[10px] text-gray-400 mt-1.5">Klik tombol di atas untuk masuk ke grup koordinasi.</p>
+                `;
+
+                // Jalankan Efek Confetti
+                confetti({
+                    particleCount: 100,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+
+            } else {
+                // Konfigurasi Tampilan Tidak Lolos
+                iconEl.className = "w-16 h-16 mx-auto rounded-full flex items-center justify-center text-3xl bg-amber-500/20 text-amber-400 border border-amber-500/30";
+                iconEl.innerHTML = "🙏";
+                titleEl.className = "text-xl font-bold tracking-wide text-amber-400";
+                titleEl.innerText = "MOHON MAAF, BELUM LOLOS";
+                descEl.innerText = "Terima kasih yang sebesar-besarnya atas partisipasi dan antusiasme Anda dalam seleksi Excamp 2027.";
+
+                divisiEl.className = "font-medium text-gray-500 text-right";
+                divisiEl.innerText = "-";
+
+                actionContainer.innerHTML = `
+                    <div class="bg-gray-900/60 p-3 rounded-xl border border-gray-800 text-xs text-gray-400">
+                        Tetap semangat dan nantikan kesempatan menarik lainnya di masa mendatang!
+                    </div>
+                `;
+            }
+        }
+
+        function resetForm() {
+            document.getElementById('input-nama').value = "";
+            document.getElementById('input-instansi').value = "";
+            document.getElementById('result-section').classList.add('hidden');
+            document.getElementById('form-section').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
