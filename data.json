@@ -1,12 +1,5 @@
 [
  {
-   "A": "NAMA",
-   "B": "INSTANSI",
-   "C": "KETERANGAN",
-   "D": "DIVISI",
-   "E": "LINK_GRUP"
- },
- {
    "A": "YUSUF GHILMAN MUZAKKA",
    "B": "POLITEKNIK PERKAPALAN NEGERI SURABAYA",
    "C": "LOLOS",
@@ -56,7 +49,7 @@
    "E": "https://chat.whatsapp.com/LGrSCXoICtdG653SjRVmuJ"
  },
  {
-   "A": "CLAIRINE ARTHA NALANI DARIELLYAMIN",
+   "A": "Clairine Artha Nalani darielleyamin",
    "B": "UNIVERSITAS AIRLANGGA",
    "C": "LOLOS",
    "D": "KEPALA DIVISI KESTARI",
@@ -77,7 +70,7 @@
    "E": "https://chat.whatsapp.com/LGrSCXoICtdG653SjRVmuJ"
  },
  {
-   "A": "AKHMAD AULIA",
+   "A": "AKHMAD AULIA RAHMAN",
    "B": "UNIVERSITAS NEGERI MALANG",
    "C": "LOLOS",
    "D": "KEPALA DIVISI ACARA",
@@ -112,7 +105,7 @@
    "E": "https://chat.whatsapp.com/K6NFvniYJAXItmInJKFNHt"
  },
  {
-   "A": "SISCA PUTRI",
+   "A": "Sisca Putri Istiawati",
    "B": "UNAIR",
    "C": "LOLOS",
    "D": "KESTARI",
@@ -203,21 +196,21 @@
    "E": "https://chat.whatsapp.com/K6NFvniYJAXItmInJKFNHt"
  },
  {
-   "A": "AGHNI NADHIFA AZKIYA",
+   "A": "Aghni Nadhifah Azkiya",
    "B": "UNESA",
    "C": "LOLOS",
    "D": "KESTARI",
    "E": "https://chat.whatsapp.com/K6NFvniYJAXItmInJKFNHt"
  },
  {
-   "A": "DEANDITA RAISA AFTA",
+   "A": "Deandita Raisa Afta Agustina",
    "B": "UNESA",
    "C": "LOLOS",
    "D": "KESTARI",
    "E": "https://chat.whatsapp.com/K6NFvniYJAXItmInJKFNHt"
  },
  {
-   "A": "NASYWAA TSANY ATHAYA",
+   "A": "Nasywaa Tsany 'Athaayaa",
    "B": "POLTEKKES KEMENKES MALANG",
    "C": "LOLOS",
    "D": "KESTARI",
@@ -294,7 +287,7 @@
    "E": "https://chat.whatsapp.com/BVPTdDtkxeW1BEuemnKO3S"
  },
  {
-   "A": "FIORENCIA AURELIANY SALSABILLAH",
+   "A": "Fiorencia Aureliany Salsabillah",
    "B": "UNESA",
    "C": "LOLOS",
    "D": "HUMAS",
@@ -306,6 +299,13 @@
    "C": "LOLOS",
    "D": "HUMAS",
    "E": "https://chat.whatsapp.com/BVPTdDtkxeW1BEuemnKO3S"
+ },
+ {
+   "A": "ITSNA HAMIDAH AL-MAHFUDHOH",
+   "B": "UNAIR",
+   "C": "LOLOS",
+   "D": "PERKAP + KONSUM",
+   "E": "https://chat.whatsapp.com/BsDIGN2h4gvEMloWrNl0HW"
  },
  {
    "A": "Zefryzal Al Farizy Maulana Putra Yusuf ",
@@ -406,21 +406,21 @@
    "E": "https://chat.whatsapp.com/IHNKM0boOtK1uVTQhRvu7t"
  },
  {
-   "A": "INTANSYAH ELEANORA RAMADHANI",
+   "A": "INTANISYAH ELEANORA RAMADHANI",
    "B": "UM",
    "C": "LOLOS",
    "D": "KOMDIS",
    "E": "https://chat.whatsapp.com/IHNKM0boOtK1uVTQhRvu7t"
  },
  {
-   "A": "NUR FAHMI SHOLAHUDDIN AKHMAD",
+   "A": "Nur Fahmi Sholahuddin Akhmad ",
    "B": "UPN Veteran jawa timur",
    "C": "LOLOS",
    "D": "KOMDIS",
    "E": "https://chat.whatsapp.com/IHNKM0boOtK1uVTQhRvu7t"
  },
  {
-   "A": "CHINTYA PUTRI WAHYUNINGRUM",
+   "A": "Chintya Putri Wahyuningrum ",
    "B": "POLTEKES MALANG",
    "C": "LOLOS",
    "D": "KOMDIS",
@@ -483,45 +483,556 @@
    "E": "https://chat.whatsapp.com/Bs6Ppmo6vAD4oqhBkGAeqs"
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": ""
+   "A": "ALAMSYAH SATYA RAHARJA",
+   "B": "UNIVERSITAS AIRLANGGA",
+   "C": "LOLOS",
+   "D": "PDD DOKUMENTASI",
+   "E": "https://chat.whatsapp.com/Bs6Ppmo6vAD4oqhBkGAeqs"
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": ""
+   "A": "M.Dani Ramsyah Dwi Mahendra",
+   "B": "UNIVERSITAS NEGERI MALANG",
+   "C": "LOLOS",
+   "D": "PDD DOKUMENTASI",
+   "E": "https://chat.whatsapp.com/Bs6Ppmo6vAD4oqhBkGAeqs"
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": ""
+   "A": "Putri Syafira Wulandari",
+   "B": "POLTEKKES MALANG",
+   "C": "LOLOS",
+   "D": "PDD DOKUMENTASI",
+   "E": "https://chat.whatsapp.com/Bs6Ppmo6vAD4oqhBkGAeqs"
  },
  {
-   "A": "",
-   "B": "",
+   "A": "Azhar Vidheo Pradana ",
+   "B": "UNIVERSITAS NEGERI SURABAYA",
+   "C": "LOLOS",
+   "D": "PDD DOKUMENTASI",
+   "E": "https://chat.whatsapp.com/Bs6Ppmo6vAD4oqhBkGAeqs"
+ },
+ {
+   "A": "Tifani Royyana Syifa",
+   "B": "UNIVERSITAS NEGERI MALANG",
+   "C": "LOLOS",
+   "D": "PDD DESAIN",
+   "E": "https://chat.whatsapp.com/Bs6Ppmo6vAD4oqhBkGAeqs"
+ },
+ {
+   "A": "Achmad Syahri Imamudin",
+   "B": "-",
    "C": "TIDAK LOLOS",
    "D": "-",
    "E": ""
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
+   "A": "ADE PAMUNGKAS",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
    "E": ""
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
+   "A": "Adinda Kirania Istafada ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Aghni Nadhifah Azkiya",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Ahmad Alfiyan Febriyanto",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Ahmad Alfiyan Febriyanto",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Ahmad Yasir",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Aisyah Athallah Azkia",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Akhmad Aulia Rahman ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Alamsyah Satya Raharja",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Alfiani Aulia Rahmawati ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Alvaro Fredderich Apriciaddo",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Amalia Dian Agustini",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Arin Rohmah Furoidah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Ayudya Khusnul Khotimah ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Azhar Vidheo Pradana ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Carissa Aria Widyatmoko",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Chika Aura Felicia",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Chika Wulan Ramadhani",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Chikq Ariefatus",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Chintya Putri Wahyuningrum ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Cicik Khamidah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Clairine Artha Nalani Darielleyamin",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Deandita Raisa Afta Agustina",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Discha Elok Andika Putri",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Diva Aulia Rochma",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Donita Ayu Rozy Saputri",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Farida Decha Nur'aini",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Ferina Dwi Rahmawati ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Fiorencia Aureliany Salsabillah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "HILAL TERA",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Icha Syarifatul Putri Nur Fadhillah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Indira Keiza Azkiya",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "INTANISYAH ELEANORA RAMADHANI ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "ITSNA HAMIDAH AL-MAHFUDHOH",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Jihan Indana Zulva",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Julianda Al-Ghifari",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "KHOIIROTUL AINIYYAH",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Lailatul Maghfiroh",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Laudya Reza Parawansa ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Leo Putra Sanjaya",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "LINTANG LAILY NURHAYATI ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Listyaamirotul Bitahamisya",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "M.Dani Ramsyah Dwi Mahendra",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Marissa Ayu Dwinov ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Marsya Dwi Lovina",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Maulana Rizqi Abdillah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Moh. Mashuri Zabadi",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Muhammad Farrel Akmal ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Muhammad Furqon Sabilillah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Muhammad Furqon Sabilillah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Muhammad Ibnu Danish ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Naila Septiana Putri ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Nanda Riska Aulia",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Nasywaa Tsany 'Athaayaa",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Nur Fahmi Sholahuddin Akhmad ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "ODILIA KEISYA AZZAHRA",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Pangestu Dwi Furmansyah ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "PUTRI MAULIDYA RAHMAWATI ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Putri Syafira Wulandari",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Qonitah Kamilah Athirah ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Rachel Daniyah Rahma Widodo",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Rafida Dharmawan ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "RENATA TALULA MALAYKA",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Reyhan Febry Hardyanto ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Rizky Utomo Suwandoko ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "SALWAA RAMADHANI",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Sayyidah Iffatur Rohmah",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Sisca Putri Istiawati",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Syakinah Aurelia Putri Ramadhani ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "TISTA AURORA SYAHIRA",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Zahra Ayu Madania",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Zaskia Bunga Harunia Westy ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
+   "E": ""
+ },
+ {
+   "A": "Zefryzal Al Farizy Maulana Putra Yusuf ",
+   "B": "-",
+   "C": "TIDAK LOLOS",
+   "D": "-",
    "E": ""
  }
 ]
